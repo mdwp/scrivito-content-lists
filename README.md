@@ -3,6 +3,10 @@
 
 A content list React component/Scrivito widget for the Scrivito CMS.
 
+## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/mdwp/scrivito-content-list/master/content-list-screenshot.png)
+
 ## Installation
 
 Open your terminal.
