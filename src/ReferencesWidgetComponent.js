@@ -7,14 +7,13 @@ Scrivito.provideComponent("ReferencesWidget", ({ widget }) => {
 
   const references = Scrivito.getClass(refType).all().order('date', 'desc').take(count);
 
-
-  /*if (!references.length) {
+  if (!references.length && Scrivito.isInPlaceEditingActive()) {
     return (
-      <InPlaceEditingPlaceholder center={ true }>
-        Add a reference to another page in widget properties.
-      </InPlaceEditingPlaceholder>
+        <h4 className="text-center">
+          Provide a reference to another page in the widget properties.
+        </h4>
     );
-  }*/
+  }
 
   return (
 
