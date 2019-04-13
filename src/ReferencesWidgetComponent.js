@@ -3,7 +3,7 @@ import * as Scrivito from "scrivito";
 
 Scrivito.provideComponent("ReferencesWidget", ({ widget }) => {
   const refType = widget.get('pageType');
-  const count = widget.get('count') || 5;
+  const count = widget.get('count') || 6;
 
   const references = Scrivito.getClass(refType).all().order('date', 'desc').take(count);
 

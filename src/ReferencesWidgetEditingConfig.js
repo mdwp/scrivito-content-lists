@@ -25,7 +25,7 @@ properties: [
     'count'
 ],
 initialContent: {
-    count: 5,
+    count: 6,
     pageType: "Page"
   },
 });
